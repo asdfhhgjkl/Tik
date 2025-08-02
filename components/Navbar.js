@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFacebook, BsMessenger } from "react-icons/bs";
+import { PiBookBookmarkDuotone, BsMessenger } from "react-icons/bs";
 import { AiOutlineSearch, AiFillHome } from "react-icons/ai";
 import { IoStorefrontOutline, IoNotifications } from "react-icons/io5";
 import { CgMenuGridO } from "react-icons/cg";
@@ -11,14 +11,14 @@ const Navbar = () => {
   return (
     <div className="py-2 px-4 bg-white shadow-md flex justify-between items-center top-0 sticky z-50">
       <div className="flex items-center gap-2">
-        <BsFacebook className="text-primary text-[40px]" />
+        <PiBookBookmarkDuotone className="text-primary text-[40px]" />
 
         <div className="relative hidden sm:block">
           <AiOutlineSearch className="absolute text-[20px] top-[10px] left-[10px] text-gray-500" />
           <input
             className="bg-[#F0F2F5] p-2 rounded-full pl-9 outline-none placeholder:text-gray-500"
             type="text"
-            placeholder="Search Facebook"
+            placeholder="Search PiBookBookmarkDuotone"
           />
         </div>
       </div>

@@ -2,14 +2,14 @@ import React from "react";
 
 import { signIn } from "next-auth/react";
 
-import { BsFacebook } from "react-icons/bs";
-import { FcGoogle } from "react-icons/fc";
+import { PiBookBookmarkDuotone } from "react-icons/pi";
+import { FcGoogle } from "react-icons/pi";
 
 const Login = () => {
   return (
     <div className="grid grid-cols-2">
       <div className="bg-primary h-screen grid place-items-center">
-        <BsFacebook className="text-white text-[200px]" />
+        <PiBookBookmarkDuotone className="text-white text-[200px]" />
       </div>
 
       <div className="grid place-items-center bg-black">
